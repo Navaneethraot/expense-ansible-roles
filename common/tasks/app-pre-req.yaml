@@ -1,12 +1,12 @@
-- nmae: delete app directory
-  ansible.builtin.file:
-  path: "{{ app_location }}"
-  state : absent
-  #ignore_errors: yes
+# - nmae: delete app directory
+#   ansible.builtin.file:
+#   path: "{{ app_location }}"
+#   state : absent
+#   #ignore_errors: yes
 
-- nmae: delete app directory
-  ansible.builtin.file:
-  path: "{{ app_location }}"
-  state : directory  
+# - nmae: delete app directory
+#   ansible.builtin.file:
+#   path: "{{ app_location }}"
+#   state : directory  
 
-- name: download and extract code 
+# - name: download and extract code 
